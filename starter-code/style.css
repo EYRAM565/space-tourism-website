@@ -7,8 +7,8 @@
 
 body{
     background-image: url('assets/home/background-home-desktop.jpg');
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat; 
+    
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     
 }
 
@@ -36,6 +36,25 @@ header a {
 
 a ,span{
     margin-right: 8px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    
+    
+}
+
+
+.two{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 150px;
+    padding: 50px 0;
+    text-align: center;
+
+    width: 150px;
 }
 
 
